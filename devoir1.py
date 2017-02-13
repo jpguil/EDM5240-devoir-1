@@ -5,7 +5,7 @@ annees1 = list(range(0,18))
 annees2 = list(range(30,100))
 
 #fusionner les deux lists
-annees1.extend(annees2)
+annees2.extend(annees1)
 
 #format pour garder que les deux derniers chiffres des années
 annee = ['{:02}'.format(annee) for annee in annees1]
