@@ -8,7 +8,7 @@ annees2 = list(range(30,100))
 annees2.extend(annees1)
 
 #format pour garder que les deux derniers chiffres des années
-annee = ['{:02}'.format(annee) for annee in annees1]
+annee = ['{:02}'.format(annee) for annee in annees2]
 
 #toutes les fins de matricule possibles
 numeros = ['{:03}'.format(numeros) for numeros in range(1, 1000)]
