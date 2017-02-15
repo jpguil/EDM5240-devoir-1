@@ -11,7 +11,7 @@ annees2.extend(annees1)
 annee = ['{:02}'.format(annee) for annee in annees2]
 
 #toutes les fins de matricule possibles
-numeros = ['{:03}'.format(numeros) for numeros in range(1, 1000)]
+numeros = ['{:03}'.format(numeros) for numeros in range(0, 1000)]
 
 #pour chaque année, ajouter toutes les fins de matricule possibles
 matricule = []
